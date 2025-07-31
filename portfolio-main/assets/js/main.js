@@ -194,12 +194,12 @@ sr.reveal('.qualification__content, .services__card', {interval: 100})
 /*=============== SCROLLING TITLE ===============*/
 var typed = new Typed("#typed", {
     strings:[
+        "Data Engineer", 
+        "AWS Cloud Practitioner",
         "Data Analyst",
-        "Data Scientist", 
-        "AI Engineer",
-        "Business Analyst",
-        "BI Engineer", 
-	"Data Engineer"
+        "AWS Certified Data Engineer",
+        "Web Developer", 
+	"Data Science Enthusiast"
         ],
     typeSpeed:70,
     backSpeed:70,
