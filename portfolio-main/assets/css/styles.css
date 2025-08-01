@@ -385,9 +385,12 @@ body.dark-theme {
 }
 
 .home__info {
-  display: grid;
-  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+  margin-top: 2rem;
 }
+
 
 .home__info-title {
   font-family: var(--body-font);
@@ -404,8 +407,10 @@ body.dark-theme {
 }
 
 .home__info-description {
-  padding-right: 4rem;
+  padding-right: 2rem;
+  line-height: 1.6;
 }
+
 
 .home__info-number {
   font-size: var(--h1-font-size);
